@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	    <style>
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}input[type=text] {
+  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+    color: white;
+}
+input[type=text]:focus {
+  border-bottom:  3px gray;
+
+
+body{
+    allign: center;
+}
+</style>
+<script>
+        function xyz(argument) {
+            // body...
+            var x = document.getElementById("x").value;
+            if (x >= 0 && x<=9) 
+            {
+                document.getElementById('xx').href=" https://www.youtube.com/watch?v=OGgG4nH8vOo&t=19s+%28carnival+A%2719%29)";
+            }
+            else if(x >= 10 && x<=19)
+            {
+                document.getElementById('xx').href="https://www.youtube.com/watch?v=34eDWAL8dIM&t=88s+%28Main+Video+A%2719%29";
+            }
+            else if(x >= 20 && x<=29)
+            {
+                document.getElementById('xx').href="https://www.instagram.com/tv/B9eMFXcjFOk/?igshid=wu6az47qkhs2 ";
+            }
+            else if(x >= 30  && x<=39)
+            {
+                document.getElementById('xx').href="https://www.instagram.com/tv/B-R1nj9jl1z/?igshid=1a8481gk62q5r";
+            }
+            else if(x >= 40  && x<=49)
+            {
+                document.getElementById('xx').href="https://www.instagram.com/p/B9s86BDjgZM/?igshid=15pcz98zt8b8i";
+            }
+            else if(x >= 50  && x<=59)
+            {
+                document.getElementById('xx').href="https://www.instagram.com/p/B-juME0DGEP/?igshid=xzs9qzvnm9f4";
+            }
+            else if(x >= 60  && x<=69)
+            {
+                document.getElementById('xx').href="https://www.instagram.com/p/B-jGO0ZDohX/?igshid=1ktqlefhsp1pp";
+            }
+            else if(x >= 70 && x<=79)
+            {
+                document.getElementById('xx').href="https://www.instagram.com/p/B-hhuPGjWIF/?igshid=97ru6fhnly1l";
+            }
+            else if(x >= 80 && x<=89)
+            {
+                document.getElementById('xx').href="https://www.instagram.com/p/B-gnCQ6jlw4/?igshid=17n06e6hhsbq4";
+            }
+            else if(x >= 90 && x<=99)
+            {
+                document.getElementById('xx').href="https://www.instagram.com/p/B-RbgWJjrNf/?igshid=17ifv17lwdkk1";
+            }
+            else
+            {
+                document.getElementById('xx').href="https://sites.google.com/view/firstchallengea20/wrong-ocde";
+            }
+            
+        }
+    </script>
+</head>
+<body>
+<h2 style="color:white">Enter the number you stopped at</h2>
+<input type="text" id='x' height="1000" width="100" name="field1" placeholder="Enter the secret code from the redirected above"><br>
+<a href="#" id='xx'><button class="button" style="vertical-align:middle" id='a' onclick="xyz()"><span>click</span></button></a>
+</body>
+</html>
